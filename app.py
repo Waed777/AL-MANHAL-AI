@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
-from utils.book_parser import parse_book
-from utils.ai_plan_generator import generate_plan
-from utils.pdf_generator import generate_pdf
-from utils.email_sender import send_email
+from book_parser import parse_book
+from ai_plan_generator import generate_plan
+from pdf_generator import generate_pdf
+from email_sender import send_email
 
 st.set_page_config(page_title="توليد ذكي – مدارس المنهل", layout="wide")
 
